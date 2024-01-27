@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samantha Lowe Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400&display=swap">
+  <link rel="stylesheet" href="global.css">
+  <style>
+
+
+    .portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Set a fixed column size with a minimum of 400px */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img {
+  width: 100%; /* Make the image take up 100% of the container width */
+  height: 100%; /* Make the image take up 100% of the container height */
+  object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+  border-bottom: 1px solid #ddd;
+}
+
+
+    .project:hover {
+      transform: scale(1.05);
+    }
+
+    /* .project img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    } */
+
+    .project-title {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .project-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+    } */
+
+    /* .small-font {
+        font-size: .5rem;
+    } */
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="/" target="_blank" rel="noopener noreferrer"><h1>Samantha Lowe</h1></a>
+    <p>Multimedia / Elearning Designer</p>
+  </header>
+
+  <div class="portfolio-container">
+    <a href="/project1.html" class="project-link">
+      <div class="project">
+        <img src="/assets/Lowe_Typography_Mockup.png" alt="A magazine layout page about Jan Tschichold">  
+        <div class="project-title">Typography Art</div>
+      </div>
+    </a>
+    <a href="/project2.html" class="project-link">
+      <div class="project">
+        <img src="/assets/Lowe_Magazine_Layout_Mockup_2.png" alt="A magazine sample focusing on biblical accuracy">
+        <div class="project-title">Magazine Layout</div>
+      </div>
+    </a>
+    <a href="/project3.html" class="project-link">
+      <div class="project">
+        <img src="/assets/Lowe_Book_Cover_Mockup_1.png" alt="A book titled 'The Strategic Designer'">
+        <div class="project-title">Book Cover Redesign</div>
+      </div>
+    </a>
+    <a href="/project4.html" class="project-link">
+      <div class="project">
+        <img src="/assets/Lowe_Icon_Index_Mockup.png" alt="A framed photo of multicolored flowers">
+        <div class="project-title">Icon, Index, Symbol
+
+        </div>
+      </div>
+    </a>
+    <a href="/project5.html" class="project-link">
+      <div class="project">
+        <img src="/assets/SubwayMockUpl.png" alt="An ipad showing a single frame of a black white animation of a man and woman talking at a party">
+        <div class="project-title">It Happened on a Brooklyn Subway</div>
+      </div>
+    </a>
+    <a href="/project6.html" class="project-link">
+      <div class="project">
+        <img src="/assets/kinectictypemockup.png" alt="A computer showing a single frame of a kinectic type animation">
+        <div class="project-title">Kinetic Type</div>
+      </div>
+    </a>
+    <a href="/project7.html" class="project-link">
+      <div class="project">   
+        <img src="/assets/storylinemockup.png" alt="A computer mock up showing a single frame of a storyline elearning training">
+        <div class="project-title">Storyline</div>
+      </div>
+    </a>
+    <a href="/project8.html" class="project-link">
+      <div class="project">
+        <img src="/assets/christmascardmockup.png" alt="A christmas card mock up that show cases a 3d image of a woman and her dog with santa claus standing next to text that says Merry  Christmas">
+        <div class="project-title">Blender Work</div>
+      </div>
+      <a href="/project9.html" class="project-link">
+        <div class="project">
+          <img src="/assets/frustation.png" alt="A frustrated plump asian lady sitting at her desk staring at a computer">
+          <div class="project-title">Website Build</div>
+        </div>
+    </a>
+  </div>
+
+  <footer>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="contact-info">Email: samantha.k.lowe@gmail.com</p>
+       
+        <!-- Add more contact information as needed -->
+      </div>
+      <div class="small-font">
+        &copy; <span id="currentYear"></span> Samantha Lowe Portfolio. All rights reserved.
+      </div>
+     
+  </footer>
+   
+
+ 
+
+  <script>
+    // JavaScript to update the current year in the footer
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

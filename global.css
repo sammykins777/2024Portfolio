@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 500;
+  }
+  footer {
+   
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .small-font {
+    font-size: .5rem;
+}

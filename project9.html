@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400&display=swap">
+  <link rel="stylesheet" href="global.css">
+  <title>Website Build</title>
+  <style>
+    /* body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    } */
+
+    .blog-post {
+      flex: 1;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .post-title {
+      padding: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .post-content {
+      padding: 20px;
+    }
+
+    .post-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .post-video {
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .post-video iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .post-image-caption {
+      font-style: italic;
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 5px;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+      <a href="/" target="_blank" rel="noopener noreferrer"><h1>Samantha Lowe</h1></a>
+        <p>Multimedia / Elearning Designer</p>
+      </header>
+
+  <div class="blog-post">
+    <div class="post-title">My Journey to a Free and Simple Portfolio Website</div>
+    <div class="post-content">
+      <img class="post-image" src="/assets/frustation.png" alt="A frustrated plump asian lady sitting at her desk staring at a computer">
+      <p class="post-image-caption">Generative AI Image</p>
+      <p>In the ever-evolving landscape of web design, finding the right platform for your portfolio can be trial and error. Dissatisfied with the lack of value from a pricey drag-and-drop editor, I set out on a mission to craft a free, simple, and custom website using the power of DIY and ChatGPT.
+
+      </p>
+      <p>The previous design fell short, failing to deliver the value I sought. Determined to make a change, my objective for the redesign was clear: a nearly free and straightforward custom site that truly reflected me and my work.</p>
+      <p>Little redesign occurred as I turned to ChatGPT for a head start. With its assistance, I received a basic template code for a portfolio, a foundation to build upon. Time was of the essence, and ChatGPT not only accelerated the coding process but also played a role in fine-tuning the website's copy.</p>
+      <p>The journey taught me a valuable lesson: investing a bit of upfront effort to learn the basics of HTML, CSS, and JavaScript can save both time and money. Embracing free technology resources proved to be a game-changer, making web development more accessible and cost-effective.</p>
+      <p>The new design stands as a truer representation of me and my work. It not only showcases front-end development skills but also highlights graphic and animation design. More importantly, it illustrates my ability to stretch a dollar by rolling up my sleeves, learning as needed, and utilizing low-cost resources.</p>
+      <p>In the quest for a functional website, I struck a balance by refraining from reinventing the wheel. Retaining elements from the previous design ensured a functional and efficient website without unnecessary complications.</p>
+      <p>My portfolio redesign journey taught me that there are various paths to achieving your goals. While fast and professional solutions may come with a hefty price tag, opting for something fast and 'good enough' can be both cost-effective and rewarding. The key lies in leveraging available resources wisely, a lesson that has transformed not just my website but my approach to web development as a whole.</p>
+      <!-- <div class="post-video">
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>More text goes here...</p> -->
+    </div>
+  </div>
+
+  <!-- Add more blog posts as needed -->
+
+  <footer>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="contact-info">Email: samantha.k.lowe@gmail.com</p>
+       
+        <!-- Add more contact information as needed -->
+      </div>
+      <div class="small-font">
+        &copy; <span id="currentYear"></span> Samantha Lowe Portfolio. All rights reserved.
+      </div>
+     
+  </footer>
+   
+
+ 
+
+  <script>
+    // JavaScript to update the current year in the footer
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

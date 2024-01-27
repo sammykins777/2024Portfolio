@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400&display=swap">
+  <link rel="stylesheet" href="global.css">
+  <title>Blender Work</title>
+  <style>
+    /* body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    } */
+
+    .blog-post {
+      flex: 1;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .post-title {
+      padding: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .post-content {
+      padding: 20px;
+    }
+
+    .post-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .post-video {
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .post-video iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+      <a href="/" target="_blank" rel="noopener noreferrer"><h1>Samantha Lowe</h1></a>
+        <p>Multimedia / Elearning Designer</p>
+      </header>
+
+  <div class="blog-post">
+    <div class="post-title">Blender Work</div>
+    <div class="post-content">
+      <img class="post-image" src="/assets/Christmas2023.png" alt="3d cartoon character of woman and dog standing with santa next to 3d text that says Merry Christmas">
+      <p>Exploring Blender, a versatile 3D modeling tool, I took on the challenge of creating a Christmas image. Despite initial hurdles with the basics, persistence paid off during a donut tutorial's third attempt. Expanding my skills with other tutorials, I realized the practical benefits for my career as a multimedia and eLearning developer. Blender has become a valuable addition to my toolkit, enhancing my ability to create engaging content for diverse projects</p>
+      <!-- <div class="post-video">
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>More text goes here...</p> -->
+    </div>
+  </div>
+
+  <!-- Add more blog posts as needed -->
+
+  <footer>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <p class="contact-info">Email: samantha.k.lowe@gmail.com</p>
+       
+        <!-- Add more contact information as needed -->
+      </div>
+      <div class="small-font">
+        &copy; <span id="currentYear"></span> Samantha Lowe Portfolio. All rights reserved.
+      </div>
+     
+  </footer>
+   
+
+ 
+
+  <script>
+    // JavaScript to update the current year in the footer
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
