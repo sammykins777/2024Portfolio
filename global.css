@@ -34,3 +34,33 @@ body {
   .small-font {
     font-size: .5rem;
 }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.invisible {
+  opacity: 0;
+  pointer-events: none;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+
+
